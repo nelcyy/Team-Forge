@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/MembersEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Member's Email"
+                android:layout_marginVertical="30dp"
+                android:textSize="40dp"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/AddTask"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Task"
+                android:background="@color/dongker"
+                android:textColor="@color/pink"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:id="@+id/Deadline"
+                android:layout_width="297dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="20dp"
+                android:ems="10"
+                android:hint="Deadline"
+                android:inputType="date" />
+
+            <TableLayout
+                android:id="@+id/TaskTable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginBottom="20dp"
+                android:divider="?android:attr/dividerVertical"
+                android:showDividers="middle">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/dongker">
+
+                    <TextView
+                        android:id="@+id/Task"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:padding="10dp"
+                        android:text="Task"
+                        android:textColor="@color/pink"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/Status"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:padding="10dp"
+                        android:text="Status"
+                        android:textColor="@color/pink"
+                        android:textStyle="bold" />
+                </TableRow>
+
+            </TableLayout>
+
+            <Button
+                android:id="@+id/Save"
+                android:layout_width="309dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/dongker"
+                android:textColor="@color/pink"
+                android:text="Save" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2b3360</color>
+    <color name="colorPrimaryDark">#03A9F4</color>
+    <color name="colorAccent">#404040</color>
+
+    <color name="blueBlack">#111f28</color>
+    <color name="tanAccent">#e3cdb3</color>
+
+    <color name="dongker">#2b3360</color>
+    <color name="pink">#ffc7c7</color>
+    <color name="white">#ffff</color>
+
+</resources>

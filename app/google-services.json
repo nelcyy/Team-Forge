@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "842137896929",
+    "project_id": "team-forge-341d0",
+    "storage_bucket": "team-forge-341d0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842137896929:android:1c1cb5300e6bd6560d74a0",
+        "android_client_info": {
+          "package_name": "com.example.teamforge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgAkmUu-b5wZjQN6ykkUkLBcKxH-OX_NA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
